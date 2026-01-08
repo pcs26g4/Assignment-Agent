@@ -52,5 +52,5 @@ jobs:
           docker rm agent-app || true
           docker run -d \
             --name agent-app \
-            -p 8000:8000 \
+            -p 8011:8000 \
             agent-app:latest
