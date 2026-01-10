@@ -13,13 +13,13 @@ from dotenv import load_dotenv
 from .database import SessionLocal, engine, Base
 from .models import User
 from .auth import verify_password, get_password_hash, create_access_token, get_current_user
-from file_processor import FileProcessor
-from openrouter_service import OpenRouterService
-from github_service import GitHubService
-from git_evaluator import GitEvaluator
-from ppt_processor import PPTProcessor
-from ppt_evaluator import PPTEvaluator
-from ppt_design_evaluator import PPTDesignEvaluator
+from .file_processor import FileProcessor
+from .openrouter_service import OpenRouterService
+from .github_service import GitHubService
+from .git_evaluator import GitEvaluator
+from .ppt_processor import PPTProcessor
+from .ppt_evaluator import PPTEvaluator
+from .ppt_design_evaluator import PPTDesignEvaluator
 
 load_dotenv()
 
