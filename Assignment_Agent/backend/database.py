@@ -9,7 +9,7 @@ load_dotenv()
 # Database URL from environment variable
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://postgres:manoj_gunda@localhost:5432/task"
+    "postgresql://postgres.rabubjgmnvkamnspegjb:AssignmentAgent@123@aws-1-ap-south-1.pooler.supabase.com:5432/postgres"
 )
 
 engine = create_engine(DATABASE_URL)
