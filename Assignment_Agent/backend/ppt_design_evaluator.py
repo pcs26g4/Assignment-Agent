@@ -7,7 +7,7 @@ import base64
 import io
 from typing import Dict, List, Optional
 from pathlib import Path
-from openrouter_service import OpenRouterService
+from .openrouter_service import OpenRouterService
 
 logger = logging.getLogger(__name__)
 
