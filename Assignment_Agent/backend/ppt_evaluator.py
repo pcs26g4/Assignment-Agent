@@ -4,7 +4,7 @@ PPT Evaluator - Evaluate PowerPoint presentations using AI
 import json
 import logging
 from typing import Dict, List, Optional
-from openrouter_service import OpenRouterService
+from .openrouter_service import OpenRouterService
 
 logger = logging.getLogger(__name__)
 
