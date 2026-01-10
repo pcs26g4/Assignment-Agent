@@ -8,8 +8,8 @@ import os
 from dotenv import load_dotenv
 import bcrypt
 
-from database import SessionLocal
-from models import User
+from .database import SessionLocal
+from .models import User
 
 load_dotenv()
 
