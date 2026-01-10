@@ -3,8 +3,8 @@ Script to initialize the database with a test user
 Run this after creating the database tables
 """
 from sqlalchemy.orm import Session
-from database import SessionLocal
-from models import User
+from .database import SessionLocal
+from .models import User
 from auth import get_password_hash
 
 def init_db():
